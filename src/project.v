@@ -49,6 +49,6 @@ module tt_um_duzabf_2026_ow (
   );
 
   assign uo_out[6:0] = rst_n ? segments : {7'b0};
-  assign uo_out[7]   = count[0];
+  assign uo_out[7]   = clk;
 
 endmodule

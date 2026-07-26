@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "An WIP Online Workshop 2026 project"      # Project title
+  title:        "A WIP Online Workshop 2026 project"      # Project title
   author:       "Airat Galiamov"      # Your name
   discord:      "DuzaBF"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "An WIP Online Workshop 2026 project with something nice"      # One line description of what your project does
+  description:  "A WIP Online Workshop 2026 project with something nice"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     1       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -43,7 +43,7 @@ pinout:
   uo[4]: "Outputs to the 7 segment display"
   uo[5]: "Outputs to the 7 segment display"
   uo[6]: "Outputs to the 7 segment display"
-  uo[7]: "DP on the display, toggles every clock"
+  uo[7]: "DP on the display, shows clock signal"
 
   # Bidirectional pins
   uio[0]: ""
