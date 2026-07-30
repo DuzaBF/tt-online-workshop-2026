@@ -23,22 +23,23 @@ module tt_um_duzabf_2026_ow (
   // List all unused inputs to prevent warnings
   wire _unused = &{found, ena, clk, rst_n, 1'b0};
 
-  wire [3:0] count;
+  wire [7:0] count;
   wire [7:0] ascii;
   wire [6:0] segments;
   wire found;
 
   counter #(
-      .WIDTH(4)
+      .WIDTH(8)
   ) i_counter (
       .clk(clk),
       .rst_n(rst_n),
-      .en(ui_in[0]),
+      .en(1'b1),
+      .reset_value(ui_in[7:0]),
       .count(count)
   );
 
   num2ascii i_num2ascii (
-      .number(count),
+      .number(count[3:0]),
       .ascii (ascii)
   );
 

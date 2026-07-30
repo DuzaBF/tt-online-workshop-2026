@@ -26,14 +26,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "Enable counter"
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "Counter reset value [0]"
+  ui[1]: "Counter reset value [1]"
+  ui[2]: "Counter reset value [2]"
+  ui[3]: "Counter reset value [3]"
+  ui[4]: "Counter reset value [4]"
+  ui[5]: "Counter reset value [5]"
+  ui[6]: "Counter reset value [6]"
+  ui[7]: "Counter reset value [7]"
 
   # Outputs
   uo[0]: "Outputs to the 7 segment display"
